@@ -37,7 +37,14 @@
 	 font-style: normal;
 }
 
-body { font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif; line-height: 1.2em; background-color:#666; color:#333; }
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	line-height: 1.6em;
+	background-color:#666;
+	color:#333;
+	font-style: normal;
+	font-size: 12px;
+}
 h1, h2, h3, h4, h5, h6 { color:#333;}
 a { color:#333; text-decoration: none; }
 #wrapper { width: 888px; margin: 40px auto;}
@@ -48,10 +55,17 @@ a { color:#333; text-decoration: none; }
 #header { padding: 55px 40px 60px; background-position: right bottom;}
 #logo h1 { font-size:36px; line-height: 0.8em; }
 #logo p { font-size:23px; display:block; margin-top:8px; }
-#call-us h2, #interests h3 { font-size: 18px; }
+#call-us h2, #interests h3 {
+	font-size: 26px;
+}
 #call-us strong { font-size: 30px; margin-left:10px; line-height: 1em; display: inline-block;}
 #interests { padding: 35px 40px; position:relative; z-index:1; }
-#interests > div#interests-texts { width:220px; float:left;}
+#interests > div#interests-texts {
+	width:220px;
+	float:left;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+}
 #interests h3:after {
 	content: ' ';
 	display:inline-block;
@@ -66,11 +80,23 @@ a { color:#333; text-decoration: none; }
 #left-shadow, #right-shadow { position: absolute; background-image: url(../images/shadow.png); width: 16px; height:344px; top:-160px;}
 #left-shadow { background-position: left top; left: -16px;}
 #right-shadow { background-position: right top; right: -16px;}
-#features h3, #buttons h3 { font-size:30px; }
+#features h3, #buttons h3 {
+	font-size:30px;
+	font-family: ChunkFiveRegular, sans-serif;
+}
 #features ul { margin: 0 -40px;}
 #features li { width: 350px; float:left; margin: 30px 20px 0 40px;}
-#features h4 { font-size:22px; line-height: 1.3em; }
-#features p { font-size:13px; margin-top:10px; color:#6b6a6a;}
+#features h4 {
+	font-size:22px;
+	line-height: 1.3em;
+	font-family: VegurBold, sans-serif;
+}
+#features p {
+	font-size:13px;
+	margin-top:10px;
+	color:#6b6a6a;
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
 #features .icon + div { padding-left:45px;}
 
 #footer { padding: 40px; }
@@ -122,4 +148,3 @@ a { color:#333; text-decoration: none; }
 #wrapper > div > div > div, #header, #interests, #container, #footer, #call-to-action, #contact-form {
 	zoom:1;
 }
-
